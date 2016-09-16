@@ -6,125 +6,198 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Aguafina Script" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="styles.css" rel="stylesheet">
 </head>
 <style>
-    body{
+    body {
         background-image: url("white.jpg")
     }
-.h-font{
-    font-family:Aguafina Script;
-    font-size: 94px;
-}
-h1{
-     margin: 50px 0px 0px 75px;
-     
-}
-h2{
-     margin: -15px 0px 30px 75px;
-     
-}
-.logo-size{
-    height: 120px;
-    width: 160px;
-    margin: 70px 0px 0px 78px;
-}
-#main-photo{
-    height:700px;
-    width:1200px;
-}
-.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
+    
+    .h-font {
+        font-family: Aguafina Script;
+        font-size: 94px;
     }
-#main-taskbar{
-    margin-left: 75px;
-    margin-right: 75px;
-}
-#tittle{
-    border-style: outset;
-    border-right-style: hidden;
-    margin-bottom:20px;
-}
-#search-bar{
-    width: 250px;
-    height: 40px;
-    border-radius:8%;
-    border-style:outset;
-}
-#search{
-    margin:80px 0px 0px 550px;
-}
-.top-font{
-    font-size:12px;
-    margin:-12px 5px 0px 0px;
-}
-.navbar2 {min-height: 25px;}
-.navbar-brand {padding: 0 15px; height: 25px; line-height: 25px;}
+    
+    h1 {
+        margin: 50px 0px 0px 75px;
+    }
+    
+    h2 {
+        margin: -15px 0px 30px 75px;
+    }
+    
+    .logo-size {
+        height: 120px;
+        width: 160px;
+        margin: 70px 0px 0px 78px;
+    }
+    
+    #main-photo {
+        height: 700px;
+        width: 1200px;
+    }
+    
+    .displayed {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+    
+    #main-taskbar {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+    
+    #tittle {
+        border-style: outset;
+        border-right-style: hidden;
+        margin-bottom: 20px;
+    }
+    
+    #search-bar {
+        width: 250px;
+        height: 48px;
+        border-radius: 5%;
+        border-style: outset;
+        margin-right:-4px;
+        border-right-style:hidden;
+    }
+    
+    #search {
+        margin: 80px 0px 0px 550px;
+    }
+    .main-navbar{
+        font-size:18px;
+        min-height: 55px;
+        letter-spacing: 1px;
+    }
+    
+    .top-font {
+        font-size: 12px;
+        margin: -12px 5px 0px 0px;
+    }
+    
+    .navbar2 {
+        min-height: 25px;
+    }
+    
+    .navbar-brand {
+        padding: 0 15px;
+        height: 25px;
+        line-height: 25px;
+    }
+    #about{
+        font-family: Open Sans Condensed;
+        font-size:20px;
+        border-style:outset;
+        border-right-style:hidden;
+        border-left-style:hidden;
+        width:500px;
+        height: 300px;
+        margin:30px 5px 30px 150px;
+    }
+    #aboutus{
+        font-size:25px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    #follow{
+        font-size:25px;
+        font-family: Open Sans Condensed;
+        border-style:outset;
+        border-right-style:hidden;
+        width:500px;
+        height:300px;
+        margin:30px 50px 30px 75px;
+        border-left-style:hidden;
+    }
+    #followus{
+        margin-top:15px;
+        margin-bottom:5px;
+    }
 </style>
+
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top navbar-brand navbar2">
-  <div class="container-fluid">
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#" class="top-font"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="#" class="top-font"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    </ul>
-  </div>
-</nav>
+        <div class="container-fluid">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" class="top-font"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#" class="top-font"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="container-fluid">
-         <div id="tittle" class="row"> 
+        <div id="tittle" class="row">
             <div class="col-md-2">
                 <div>
-                <h1 class="h-font">Inked</h1>
+                    <h1 class="h-font">Inked</h1>
                 </div>
                 <div>
                     <h2 class="h-font">Brigade</h1>
-                    </div>
+                </div>
             </div>
             <div class="col-md-1 ">
-                 <img class="logo-size" src="logo.jpg" alt="siluehtte of tattoo gun"> 
+                <img class="logo-size" src="logo.jpg" alt="siluehtte of tattoo gun">
             </div>
             <div class="col-md-8">
                 <div id="search">
-                <form>
-                   <input id="search-bar" type="text" placeholder="Search"> 
-                <button type="button" class="btn btn-lg btn-link"><span class="glyphicon glyphicon-search"></span></button>
-      </form>
-      </div>
+                    <form>
+                        <input id="search-bar" type="text" placeholder="Search">
+                        <button type="button" style="background-color:black" class="btn btn-lg"><i class="fa fa-search fa-inverse"></i></button>
+                    </form>
+                </div>
             </div>
         </div>
         <div id="main-taskbar">
-        <div class="row">
-            <!--<div class="col-md-2"><a href="tattoos.html">Styles</a></div>
+            <div class="row">
+                <!--<div class="col-md-2"><a href="tattoos.html">Styles</a></div>
             <div class="col-md-2"><a href="bestshops.html">Best Shops</a></div>
             <div class="col-md-2"><a href="storiesandnightmares.html">Stories & Nightmares</a></div>
             <div class="col-md-6"></div>-->
 
-            <nav class="navbar navbar-default navbar navbar-inverse">
-                <div class="container-fluid">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Styles</a></li>
-                        <li><a href="#">Stories & Nightmares</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+                <nav class="navbar navbar-default navbar navbar-inverse main-navbar">
+                    <div class="container-fluid">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">GALLERY</a></li>
+                            <li><a href="#">STYLES</a></li>
+                            <li><a href="#">STORIES & NIGHTMARES</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
         <div class="row">
             <div class="col-md-12">
                 <img class="displayed img-rounded" id="main-photo" src="machine.jpg" alt="image of tattoo">
-            </div>
+                <button id="left" class="btn btn-link" type="button"><i class="fa fa-arrow-left fa-4x" style="color:white" aria-hidden="true"></i></button>
+                <button class="btn btn-link" type="button"><i class="fa fa-arrow-right fa-4x" style="color:white" aria-hidden="true"></i></button>
+                </div>
         </div>
         <div class="row">
-            <div class="col-md-4">Folow us:</div>
-            <div class="col-md-8">Ut cupidatat ullamco veniam officia cupidatat dolor commodo. Excepteur occaecat laboris aute laborum ipsum do
+            <div id="follow" class="col-md-6"><div id="followus">Follow us:</div><span class="fa-stack fa-lg">
+  <i class="fa fa-square-o fa-stack-2x"></i>
+  <i class="fa fa-twitter fa-stack-1x"></i>
+</span>
+<br>
+<span class="fa-stack fa-lg">
+  <i class="fa fa-square-o fa-stack-2x"></i>
+  <i class="fa fa-facebook fa-stack-1x"></i>
+</span>
+<br>
+<span class="fa-stack fa-lg">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+</span>
+</div>
+            <div id="about" class="col-md-6"><div id="aboutus">About us:</div>Ut cupidatat ullamco veniam officia cupidatat dolor commodo. Excepteur occaecat laboris aute laborum ipsum do
                 ut dolore irure officia veniam. Laboris ea reprehenderit dolor amet sit Lorem. Nisi aute sint ea occaecat
                 est. Duis qui nulla labore officia. Et mollit dolore et occaecat quis consequat nulla voluptate nulla esse.</div>
         </div>
